@@ -12,7 +12,7 @@ from datetime import datetime
 
 
 from content_engine.content_generator import generate_final_variations
-from content_engine.trend_based_optimizer import Trend_Based_Optimizer
+from content_engine.trend_based_optimizer import optimize_content
 from sentiment_engine.sentiment_analyzer import analyze_sentiment
 from ab_testing.ab_coach import ABCoach
 from metrics_engine.metrics_tracker import push_daily_metrics
