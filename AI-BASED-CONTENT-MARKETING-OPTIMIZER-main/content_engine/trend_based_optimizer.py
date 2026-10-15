@@ -11,7 +11,7 @@ TREND_DATA = {
     "DigitalMarketing": 0.39,
     "BlackFriday": 0.34625
 }
-
+from content_engine.trend_based_optimizer import optimize_content
 # -------------------------------------------------------------------
 # TREND SCORE HELPERS
 # -------------------------------------------------------------------
