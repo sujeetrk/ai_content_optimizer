@@ -1,6 +1,6 @@
 # app/content_engine/content_generator3.py
 
-import genai
+import google.generativeai as genai
 from typing import List, Dict, Optional
 import os
 import logging
