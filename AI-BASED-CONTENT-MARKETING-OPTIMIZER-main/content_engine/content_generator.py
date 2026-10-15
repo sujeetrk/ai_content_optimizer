@@ -23,10 +23,9 @@ except Exception:
     GEMINI_AVAILABLE = True
 
 
-from .dynamic_prompt2 import generate_engaging_prompt
-
+from .dynamic_prompt import generate_engaging_prompt
 # USING OPTIMIZER 3 (correct one)
-from app.content_engine.trend_based_optimizer3 import (
+from .trend_based_optimizer import (
     optimize_content,
     hashtag_trend_score,
     dedupe_hashtags_in_text,
